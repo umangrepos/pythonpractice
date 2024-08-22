@@ -1,12 +1,12 @@
-i = 5
+string= "Score : 36"
 
-if i == 0 :
-    print("Zero")
-elif i > 0 :
-    print("Positive")
+if not string :
+    print("Empty String")
 else :
-    print("Negative")
-
-
-
-
+    for char in string.lower():
+        if char in ("a","e","i","o","u") :
+            print(f"{char} is a vowel")
+        elif not char.isalpha():
+            print(f"{char} is not a letter")
+        else :
+            print(f"{char} is a consonant")
