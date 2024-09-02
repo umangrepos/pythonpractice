@@ -1,8 +1,10 @@
-my_dict = {"a":1,"b":2,"c":3}
-new_key = "d"
-new_value = 4
+my_dict = {"a":4,"b":4,"c":4}
 
-if new_key not in my_dict :
-    my_dict[new_key] = new_value
+my_uniqueset_len = len(set(my_dict.values()))
 
-print(my_dict)
+if my_uniqueset_len == 0 :
+    print("empty")
+elif my_uniqueset_len == 1 :
+    print(True)
+else :
+    print(False)
