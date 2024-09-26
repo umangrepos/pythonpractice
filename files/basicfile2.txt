@@ -1,6 +1,7 @@
-    switch
-    concert
-    contradiction
-    offset
-    power
-    fare
+switch
+concert
+switch
+contradiction
+offset
+power
+fare
