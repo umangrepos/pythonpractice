@@ -6,8 +6,11 @@ intersection = set()
 for elem in set1 :
     if elem in set2:
         intersection.add(elem)
-
-
 print(intersection)
 
 
+#print(set1.intersection(set2))
+
+
+#for multiple set
+#print(set1.intersection(set2,set3))
