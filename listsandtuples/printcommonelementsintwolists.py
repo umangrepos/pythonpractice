@@ -8,3 +8,9 @@ for elem in pointA :
         common.append(elem)
 
 print(common)
+
+
+
+
+
+
