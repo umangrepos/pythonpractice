@@ -8,4 +8,3 @@ for nested_list in my_list:
 
 print(new_dictionary)
 
-
