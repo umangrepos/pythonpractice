@@ -29,4 +29,3 @@ else:
     else:
         print("prime")  
 
-
