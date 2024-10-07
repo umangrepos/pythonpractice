@@ -5,3 +5,4 @@ def convert_to_binary(decimalnum):
         return (convert_to_binary(decimalnum//2)+ str(decimalnum%2)).lstrip("0") 
     
 print(convert_to_binary(5))
+
