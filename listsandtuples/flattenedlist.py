@@ -7,6 +7,6 @@ for elem in List1:
         for nestedelem in elem:
             flattenedlist.append(nestedelem)
     else:
-        flattenedlist.append(nestedelem)
+        flattenedlist.append(elem)
 
 print(flattenedlist)
