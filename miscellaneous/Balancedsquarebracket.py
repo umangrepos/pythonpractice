@@ -6,7 +6,7 @@ def balanced_bracket(string):
         elif bracket == "]":
             count -= 1
         
-        if count < 0:
+        if count != 0:
             break
 
     return count == 0
